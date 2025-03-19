@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.bg-dark-900 {
+  background-color: #000000;
+}
+
+.bg-dark-800\/80 {
+  background-color: rgba(26, 26, 26, 0.8);
+}
+
+.backdrop-blur-lg {
+  backdrop-filter: blur(16px);
+}
+
+/* Optional: Add smooth transitions for hover states */
+.border-dark-700 {
+  border-color: rgba(55, 55, 55, 0.7);
+  transition: border-color 0.3s ease;
+}
+
+/* Optional: Improve shadow effects */
+.shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
+              0 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
